@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Cores de fundo (Background) */
+    --background-page: #FFF9E7;
+    --background-nav: #3A53E3;
+    --background-sobre: #F8CD53;
+    --background-footer: #29282B;
+
+
+    /* Cores de fonte */
+    --cor-fonte-padrao: #000000;
+    --cor-fonte-nav: #FFFFFF;
+    --cor-fonte-by: orange;
+    --cor-fonte-button-hover: yellow;
+
+
+    /* Fontes da pagina */
+    --lato-roboto: 'lato', Roboto;
+    --lato-cursive: 'lato', cursive;
+
+    /* Coree de Efeito */
+    --cor-sombra: #C0C0C0;
+    --cor-sombra-hover: #191970;
+    --cor-button-hover: #191970;
+    --cor-placeholder-effect: #191970;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.10rem;
+}
+
+main {
+    width: 80vw;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
