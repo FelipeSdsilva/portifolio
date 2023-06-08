@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portifólio</title>
+    <title>Portifólio - Home</title>
 </head>
 
 <body>
-    <nav>
-        <ul style="list-style-type: none;">
-            <li><a href="index.html">Home</a></li>
-            <li>Projetos</li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+    <nav class="menu-inicial">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Projetos</li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+       
 
     </nav>
     <main>
-        <h1>Sobre o Felipe: </h1>
-        <section>
+        <section id="about-me">
+            <h1>About Me: </h1>
+            <hr>
             <div class="sobre">
                 <p>Trabalhei 3 anos como auxiliar de escritório, onde desenvolvi habilidades muitos importantes na minha
                     vida que foi a paciência e atenção aos detalhes, nesse mesmo serviço resolvi questões de resoluções
@@ -30,7 +32,7 @@
                     ajudar pessoas e aprendo com facilidade.
                     Tenho certos conhecimentos e habilidades como :</p>
                 <div class="skills">
-                    <ul>
+                    <ul class="skill-img">
                         <li><img width="50rem" src="assets/img/skills/java/java-original.svg" alt=""></li>
                         <li><img width="50rem" src="assets/img/skills/spring/spring-original.svg" alt=""></li>
                         <li><img width="50rem" src="assets/img/skills/mysql/mysql-original.svg" alt=""></li>
@@ -46,39 +48,35 @@
                 <img src="assets/img/" alt="Imagen minhas">
             </div>
         </section>
-        <h2>Videos:</h2>
-        <hr>
-        <section>
+
+        <section id="videos">
+            <h2>Videos:</h2>
+            <hr>
             <h3>Projeto Desafiador da Cumunidade CoDe.</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zR28yj862ag"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-
         </section>
         <hr>
     </main>
     <footer>
-        <div>
-            <ul>
+        <div class="box-footer">
+            <ul class="footer-img">
                 <li>
-                    <div>
-                        <img height="50px" src="assets/img/github/github-original.svg"
-                            alt="Logo da página - Imagen redonda com um boneco branco  "><a
-                            href="https://github.com/FelipeSdsilva" target="_blank"></a>
-                    </div>
+                    <img height="50px" src="assets/img/github/github-original.svg"
+                        alt="Logo da página - Imagen redonda com um boneco branco  "><a
+                        href="https://github.com/FelipeSdsilva" target="_blank"></a>
                 </li>
                 <li>
-                    <div>
-                        <img height="50px" src="assets/img/linkedIn/linkedin-original.svg"
-                            alt="Logo quadrado azul com as letra i e n"><a
-                            href="https://www.linkedin.com/in/felipesdsilva/" target="_blank"></a>
-                    </div>
+                    <img height="50px" src="assets/img/linkedIn/linkedin-original.svg"
+                        alt="Logo quadrado azul com as letra i e n"><a href="https://www.linkedin.com/in/felipesdsilva/"
+                        target="_blank"></a>
                 </li>
-
             </ul>
+            <div class="footer-directs">Desenvolvido por Felipe Sousa - 2023 &copy;</div>
         </div>
-        <div>Desenvolvido por Felipe Sousa - 2023 &copy;</div>
+
     </footer>
 </body>
 
