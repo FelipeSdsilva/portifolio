@@ -21,5 +21,5 @@ tipos de tela
 - [x] Criação da página de contatos.
 - [x] Pastas com imagens.
 - [] Criação da responsividade.
-- [] Alteração do menu.
+- [x] Alteração do menu.
 - [] 

@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--lato-cursiva);
-    background-color: var(--background-page);
 }
 
 :root {
@@ -44,6 +43,7 @@ section {
     margin: var(--height-padron);
     padding: var(--height-padron);
     border-radius: var(--boder-radius-padron);
+    background-color: var(--background-page);
 }
 
 .menu-inicial {
@@ -53,15 +53,29 @@ section {
     background-color: var(--background-footer);
 }
 
-.menu-inicial>ul {
-    background-color: var(--background-footer);
-    padding-top: 30px;
-    float: right;
+.menu-inicial>a{
+    display: inline;
+    float: left;
+    margin: var(--height-padron);
 }
 
-.card {
-    display: flex;
-    padding-bottom: 100;
+.menu-inicial>ul {
+    color: var(--cor-fonte-nav);
+    background-color: var(--background-footer);
+    padding-top: 30px;
+    padding-left: 50px;
+    float: right;
+}
+.menu-inicial-itens{
+    padding-right: 50px;
+}
+
+
+.menu-inicial-itens>li,.menu-inicial-itens>li>a{
+    padding-left: 50px;
+    background-color: var(--background-footer);
+    text-decoration: none;
+    color: var(--cor-fonte-nav); 
 }
 
 #about-me {
@@ -76,8 +90,9 @@ section {
 #about-me>hr,
 #videos>h1,
 #videos>hr,
-#videos>h2{
-    margin-bottom: var(--height-padron)
+#videos>h2,
+#videos>h3{
+    margin: var(--height-padron)
 }
 
 .skills,
@@ -100,6 +115,7 @@ section {
 p {
     margin-bottom: 1.5rem;
     font-size: 1.10rem;
+    margin: var(--height-padron)
 }
 
 main {
@@ -137,6 +153,3 @@ footer {}
     color: var(--cor-fonte-nav);
     background-color: var(--background-footer);
 }
-
-
-@media
