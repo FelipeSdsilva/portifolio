@@ -9,19 +9,18 @@
 }
 
 :root {
+
     /* Cores de fundo (Background) */
     --background-page: #FFF9E7;
     --background-nav: #3A53E3;
     --background-sobre: #F8CD53;
     --background-footer: #29282B;
 
-
     /* Cores de fonte */
     --cor-fonte-padrao: #000000;
     --cor-fonte-nav: #FFFFFF;
     --cor-fonte-by: orange;
     --cor-fonte-button-hover: yellow;
-
 
     /* Fontes da pagina */
     --lato-roboto: 'lato', Roboto;
@@ -32,28 +31,40 @@
     --cor-sombra-hover: #191970;
     --cor-button-hover: #191970;
     --cor-placeholder-effect: #191970;
-    
 
-
+    --height-padron: 10px;
+    --boder-radius-padron: 20px;
 }
 
 body {
     background-color: var(--cor-sombra);
 }
 
-section{
-    margin: 10px;
-    padding: 10px;
+section {
+    margin: var(--height-padron);
+    padding: var(--height-padron);
+    border-radius: var(--boder-radius-padron);
 }
 
 .menu-inicial {
     height: 100px;
-    padding: 10px ;
+    padding: 10px;
     text-align: center;
     background-color: var(--background-footer);
 }
 
-#about-me{
+.menu-inicial>ul {
+    background-color: var(--background-footer);
+    padding-top: 30px;
+    float: right;
+}
+
+.card {
+    display: flex;
+    padding-bottom: 100;
+}
+
+#about-me {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -61,15 +72,24 @@ section{
     padding: 25px;
 }
 
-.skills,.skill-img{
+#about-me>h1,
+#about-me>hr,
+#videos>h1,
+#videos>hr,
+#videos>h2{
+    margin-bottom: var(--height-padron)
+}
+
+.skills,
+.skill-img {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
 }
 
 
-#videos{
+#videos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -87,6 +107,7 @@ main {
     margin: 0 auto;
     padding-bottom: 80px;
     text-align: center;
+    background-color: var(--cor-sombra);
 }
 
 ul {
@@ -97,10 +118,10 @@ ul {
     padding-bottom: 0;
 }
 
-footer,
+footer {}
+
 .footer-img>li {
-    width: 80vw;
-    height: 100px;
+    width: 100vw;
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 0;
@@ -111,7 +132,7 @@ footer,
 .footer-directs,
 .footer-img {
     border-radius: 5px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     color: var(--cor-fonte-nav);
     background-color: var(--background-footer);
