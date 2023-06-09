@@ -130,14 +130,14 @@ ul {
 footer {
     height: 100px;
     display: flex;
-    justify-content: end;
     background-color: var(--background-footer);
     border-radius: 5%;
+    justify-content: center;
 }
 
 .box-footer {
     display: flex;
-    float: right;
+    
 }
 
 .footer-img{
