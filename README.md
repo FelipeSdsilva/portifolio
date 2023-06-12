@@ -17,5 +17,6 @@ Esse projeto consiste em uma página estruturada em HTML, CSS e JavaScript, que 
 - [] Consumir uma Api.
 - [] Criar página de projetos.
 - [x] Colocar Curriculo.
+- [] Criar menu hamburguer
 
 <hr>
