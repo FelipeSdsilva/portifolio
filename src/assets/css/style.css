@@ -78,6 +78,15 @@ section {
     color: var(--cor-fonte-nav);
 }
 
+
+main {
+    display: inline;
+  
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: var(--cor-sombra);
+}
+
 #about-me {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +95,20 @@ section {
     padding: 10px;
 }
 
+#card-contact,#card-network-contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+
+#card-contact>h1,
+#card-contact>hr,
+#card-network-contact>h1,
+#card-network-contact>hr,
 #about-me>h1,
 #about-me>hr,
 #about-me>div,
@@ -93,8 +116,15 @@ section {
 #videos>hr,
 #videos>h1,
 #videos>h2,
-#videos>h3 {
+#videos>h3,h3 {
     margin: var(--height-padron)
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .skills,
@@ -102,6 +132,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -112,20 +143,10 @@ section {
     padding: 10px;
 }
 
-
 p {
     margin-bottom: 1.5rem;
     font-size: 1.10rem;
     margin: var(--height-padron)
-}
-
-main {
-    display: inline;
-    width: 80vw;
-    margin: 0 auto;
-    padding-bottom: 80px;
-    text-align: center;
-    background-color: var(--cor-sombra);
 }
 
 ul {
@@ -135,7 +156,6 @@ ul {
 
 footer {
     position: absolute;
-    bottom: 0;
     height: 100px;
     width: 100%;
     margin-top: 20px;

@@ -20,38 +20,44 @@
         </ul>
     </nav>
     <main>
-        <h1>Meios de Contatos</h1>
-        <hr>
-        <section>
+        <section id="card-contact">
+            <h1>Entre em contato:</h1>
+            <hr>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+                <br>
+                <label for="assunto">Assunto:</label>
+                <textarea name="assunto" rows="10" cols="60"></textarea>
+            </form>
+        </section>
+
+        <section id="card-network-contact">
+            <h1>Outros Meios de Contatos:</h1>
+            <hr>
 
             <div>
-                <ul style="list-style-type: none;">
+                <ul style="margin-bottom: 20px;">
                     <li>
                         <h2>LinkedIn</h2>
-                        <div>
-                            <img height="50px" src="../assets/img/linkedIn/linkedin-original.svg"
-                                alt="Logo quadrado azul com as letra i e n"><a
-                                href="https://www.linkedin.com/in/felipesdsilva/" target="_blank">Felipe Sousa</a>
-                        </div>
+                        <img height="50px" style="margin-left: 10px;" src="../assets/img/linkedIn/linkedin-original.svg"
+                            alt="Logo quadrado azul com as letra i e n"><a
+                            href="https://www.linkedin.com/in/felipesdsilva/" target="_blank">Felipe Sousa</a>
                     </li>
                     <li>
-                        <hr>
                         <h2>WhatsApp</h2>
-
-                        <div>
-                            <img height="50px" src="../assets/img/whatsApp/icons8-whatsapp.svg"
-                                alt="Logo redondo ponteagudo com uma figura de um telefone no meio"><a
-                                href="http://rip.to/pbMXY3" target="_blank">55+ (11) 95470-5118</a>
-                        </div>
+                        <img height="50px" style="margin-left: 10px;"src="../assets/img/whatsApp/icons8-whatsapp.svg"
+                            alt="Logo redondo ponteagudo com uma figura de um telefone no meio"><a
+                            href="http://rip.to/pbMXY3" target="_blank">55+ (11) 95470-5118</a>
                     </li>
                     <li>
-                        <hr>
                         <h2>E-mail</h2>
-                        <div>
-                            <img height="50px" src="../assets/img/email/iconmonstr-email-2.svg"
-                                alt="Logo quadrado parecendo uma carta"><a href="mailto:felipe.fps09@hotmail.com"
-                                target="_blank">felipe.fps09@hotmail.com</a>
-                        </div>
+                        <img height="50px" style="margin-left: 10px;" src="../assets/img/email/iconmonstr-email-2.svg"
+                            alt="Logo quadrado parecendo uma carta"><a href="mailto:felipe.fps09@hotmail.com"
+                            target="_blank">felipe.fps09@hotmail.com</a>
                     </li>
                 </ul>
         </section>
@@ -61,11 +67,11 @@
         <div class="box-footer">
             <ul class="footer-img">
                 <li>
-                    <img height="50px" src="../assets/img/github/fluidicon.png"
+                    <img height="50px" style="padding: 10px;" src="../assets/img/github/fluidicon.png"
                         alt="Logo da página - Imagen redonda com um boneco branco  "><a
                         href="https://github.com/FelipeSdsilva" target="_blank"></a>
                 </li>
-            <div class="footer-directs">Desenvolvido por Felipe Sousa - 2023 &copy;</div>
+                <div class="footer-directs">Desenvolvido por Felipe Sousa - 2023 &copy;</div>
         </div>
 
     </footer>
