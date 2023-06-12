@@ -13,10 +13,10 @@ Esse projeto consiste em uma página estruturada em HTML, CSS e JavaScript, que 
 - [x] Pastas com imagens.
 - [x] Criação da responsividade.
 - [x] Alteração do menu.
-- [] Criar modo escuro.
-- [] Consumir uma Api.
-- [] Criar página de projetos.
+- [ ] Criar modo escuro.
+- [ ] Consumir uma Api.
+- [ ] Criar página de projetos.
 - [x] Colocar Curriculo.
-- [] Criar menu hamburguer
+- [ ] Criar menu hamburguer
 
 <hr>
