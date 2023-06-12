@@ -8,18 +8,14 @@ Esse projeto consiste em uma página estruturada em HTML, CSS e JavaScript, que 
 
 <hr>
 
-tipos de tela 
-
-320
-480
-760
-960
-1200
-1600
-
 - [x] Estrutura página index.
 - [x] Criação da página de contatos.
 - [x] Pastas com imagens.
 - [x] Criação da responsividade.
 - [x] Alteração do menu.
-- [] 
+- [] Criar modo escuro.
+- [] Consumir uma Api.
+- [] Criar página de projetos.
+- [x] Colocar Curriculo.
+
+<hr>

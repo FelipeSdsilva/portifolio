@@ -78,7 +78,7 @@ section {
 
 main {
     display: inline;
-  
+
     padding-bottom: 80px;
     text-align: center;
     background-color: var(--cor-sombra);
@@ -92,22 +92,27 @@ main {
     padding: 10px;
 }
 
-#card-contact{
+#resume {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    
-}
-
-
-#card-network-contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 20px;
     padding: 10px;
 }
 
+#resume>a{
+    height: 20px;
+    width: 150px;
+    text-decoration: none;
+    background-color: var(--background-footer);
+    color: var(--cor-fonte-nav);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+#resume>h1,
+#resume>hr,
+#resume>object,
 #card-contact>h1,
 #card-contact>hr,
 #card-network-contact>h1,
@@ -119,17 +124,33 @@ main {
 #videos>hr,
 #videos>h1,
 #videos>h2,
-#videos>h3,h3, label {
+#videos>h3,
+h3,
+label {
     margin: var(--height-padron)
 }
 
-form{
+form {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
+#card-contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#card-network-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
 
 .skills,
 .skill-img {
