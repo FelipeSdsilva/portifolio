@@ -20,6 +20,6 @@ tipos de tela
 - [x] Estrutura página index.
 - [x] Criação da página de contatos.
 - [x] Pastas com imagens.
-- [] Criação da responsividade.
+- [x] Criação da responsividade.
 - [x] Alteração do menu.
 - [] 

@@ -3,7 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-
     font-family: var(--lato-cursiva);
 }
 
@@ -37,7 +36,6 @@
 body {
     background-color: var(--cor-sombra);
 }
-
 
 section {
     margin: var(--height-padron);
@@ -78,7 +76,6 @@ section {
     color: var(--cor-fonte-nav);
 }
 
-
 main {
     display: inline;
   
@@ -95,15 +92,21 @@ main {
     padding: 10px;
 }
 
-#card-contact,#card-network-contact{
+#card-contact{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    
 }
 
 
-
+#card-network-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
 
 #card-contact>h1,
 #card-contact>hr,
@@ -116,7 +119,7 @@ main {
 #videos>hr,
 #videos>h1,
 #videos>h2,
-#videos>h3,h3 {
+#videos>h3,h3, label {
     margin: var(--height-padron)
 }
 
@@ -126,6 +129,7 @@ form{
     flex-direction: column;
     margin-bottom: 20px;
 }
+
 
 .skills,
 .skill-img {
